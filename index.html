@@ -480,6 +480,104 @@
                 <img id="modalImg" src="" class="max-w-[90%] max-h-[90%] rounded-lg shadow-lg" />
             </div>
     </section>
+
+    <!-- SESSÃO DEPOIMENTOS  -->
+    <section id="depoimentos" class="relative items-center pt-[120px] pb-[60px] px-6 md:px-32">
+        <picture class="absolute inset-0 z-0 will-change-transform" 
+            :style="'transform: translateY(' + backgroundY + 'px)'">
+            <img 
+                src="assets/img/BgDepoimentosContato.png"
+                alt="background projetos"
+                class="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+            />
+        </picture>
+        <div class="relative z-1 w-full flex justify-center items-center">
+            <div class="md:w-[85%] lg:w-[75%] xl:w-[50%] text-center">
+                <h2>Depoimentos</h2>
+                <h3>O que meus clientes falam sobre meus serviços</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus repudiandae culpa blanditiis. Dolorem, optio itaque, adipisci saepe nobis iusto quod ad suscipit quidem veniam velit corrupti recusandae, aspernatur animi.</p>
+            </div>
+        </div>
+        <div class="relative z-1 justify-center items-center py-16">
+                
+            <div class="flex justify-center items-center flex-wrap gap-8 w-full">
+                <div class="md:w-[100%] lg:w-[50%] xl:w-[25%] text-center">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit exercitationem porro cupiditate doloribus qui tempora. Laborum ducimus culpa hic temporibus rem? Fugiat ab iste harum exercitationem magnam vitae dolore alias."</p>
+                    <p>Jão da Silva</p>
+                </div>
+                <div class="md:w-[100%] lg:w-[50%] xl:w-[25%] text-center">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit exercitationem porro cupiditate doloribus qui tempora. Laborum ducimus culpa hic temporibus rem? Fugiat ab iste harum exercitationem magnam vitae dolore alias."</p>
+                    <p>Zé de Souza</p>
+                </div>
+                <div class="md:w-[100%] lg:w-[50%] xl:w-[25%] text-center">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit exercitationem porro cupiditate doloribus qui tempora. Laborum ducimus culpa hic temporibus rem? Fugiat ab iste harum exercitationem magnam vitae dolore alias."</p>
+                    <p>Maria Joana</p>
+                </div>
+            </div>
+            <div class="flex justify-center items-center gap-8 w-full pt-[120px]">
+                <div class="flex justify-center items-center">
+                    <form id="contactForm" class="w-full max-w-md border border-[#A1CCCF] rounded-md p-6 shadow-sm">
+                        <h3 class="text-sm font-semibold text-gray-700 mb-1">Contato</h3>
+                        <h2 class="text-2xl font-bold text-[#138086] mb-6">Fale comigo</h2>
+
+                        <!-- Nome -->
+                        <input 
+                            type="text" 
+                            id="name" 
+                            placeholder="Nome" 
+                            class="w-full mb-4 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#138086]"
+                            required
+                            pattern="^[A-Za-zÀ-ÿ\s]{3,}$"
+                            title="Digite um nome válido (mínimo 3 letras)"
+                        />
+
+                        <!-- Email -->
+                        <input 
+                            type="email" 
+                            id="email" 
+                            placeholder="Email"
+                            class="w-full mb-4 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#138086]"
+                            required
+                        />
+
+                        <!-- Telefone -->
+                        <input 
+                            type="tel" 
+                            id="phone" 
+                            placeholder="Telefone" 
+                            class="w-full mb-4 px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#138086]"
+                            required
+                            pattern="^\(\d{2}\)\s\d{4,5}-\d{4}$"
+                            title="Formato esperado: (99) 99999-9999"
+                            oninput="maskPhone(this)"
+                        />
+
+                        <!-- Mensagem -->
+                        <textarea 
+                            id="message" 
+                            placeholder="Mensagem" 
+                            class="w-full mb-4 px-4 py-2 border rounded-md h-28 resize-none focus:outline-none focus:ring-2 focus:ring-[#138086]"
+                            required
+                            minlength="10"
+                        ></textarea>
+
+                        <!-- Botão -->
+                        <button type="submit" 
+                            class="w-full bg-[#012f35] text-white font-semibold px-4 py-2 rounded-full hover:bg-[#011f24] transition-colors">
+                            Fale comigo
+                        </button>
+
+                        <!-- Feedback -->
+                        <p id="feedbackMsg" class="hidden mt-4 text-green-600 font-semibold text-center">
+                            ✅ Mensagem enviada com sucesso!
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>
