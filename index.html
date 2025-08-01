@@ -389,6 +389,96 @@
                 </div>
             </div>
         </div>
+        <div id="stacks" class="relative items-center pt-[120px] pb-[60px]">
+            <div class="relative z-1 flex justify-between items-center gap-16 w-full">
+                <div class="md:w-[50%] lg:w-[50%] xl:w-[50%] w-full">
+                    <h2>Stacks</h2>
+                    <h3>Minhas principais stacks</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus repudiandae culpa blanditiis. Dolorem, optio itaque, adipisci saepe nobis iusto quod ad suscipit quidem veniam velit corrupti recusandae, aspernatur animi.</p>
+                    <div class="flex justify-around items-center">
+                        <div class="w-24 h-24 rounded-full border-[8px] border-[#A1CCCF] flex justify-around items-center">
+                            <h4 class="relative text-3xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">
+                                Angular
+                            </h4>
+                        </div>
+                        <div class="w-24 h-24 rounded-full border-[8px] border-[#A1CCCF] flex justify-around items-center">
+                            <h4 class="relative text-3xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">
+                                JS
+                            </h4>
+                        </div>
+                        <div class="w-24 h-24 rounded-full border-[8px] border-[#A1CCCF] flex justify-around items-center">
+                            <h4 class="relative text-3xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">
+                                PHP
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center md:w-[50%] lg:w-[50%] xl:w-[50%] w-full">
+                    <img 
+                        src="assets/img/molduraFoto.svg"
+                        alt="Moldura Imagem"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SESSÃO PROJETOS  -->
+    <section id="projetos" class="relative items-center pt-[120px] pb-[60px] px-6 md:px-32">
+        <picture class="absolute inset-0 z-0 will-change-transform" 
+            :style="'transform: translateY(' + backgroundY + 'px)'">
+            <img 
+                src="assets/img/bgProjetos.png"
+                alt="background projetos"
+                class="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+            />
+        </picture>
+        <div class="relative z-1 w-full flex justify-center items-center">
+            <div class="md:w-[85%] lg:w-[75%] xl:w-[50%] text-center">
+                <h2>Portfolio</h2>
+                <h3>Veja alguns projetos desenvolvidos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus repudiandae culpa blanditiis. Dolorem, optio itaque, adipisci saepe nobis iusto quod ad suscipit quidem veniam velit corrupti recusandae, aspernatur animi.</p>
+            </div>
+        </div>
+        <div class="relative z-1 flex justify-center items-center py-16">
+                
+            <!-- Galeria -->
+            <div class="flex justify-center items-center flex-wrap gap-8 w-full">
+                <img src="assets/img/portfolio01.png" 
+                    alt="Projetos protfólio" 
+                    class="w-80 h-80 object-cover rounded-lg cursor-pointer transition-transform duration-300 hover:scale-105"
+                    onclick="openModal(this.src)">
+                <img src="assets/img/portfolio02.png" 
+                    alt="Projetos protfólio" 
+                    class="w-80 h-80 object-cover rounded-lg cursor-pointer transition-transform duration-300 hover:scale-105"
+                    onclick="openModal(this.src)">
+                <img src="assets/img/portfolio03.png" 
+                    alt="Projetos protfólio" 
+                    class="w-80 h-80 object-cover rounded-lg cursor-pointer transition-transform duration-300 hover:scale-105"
+                    onclick="openModal(this.src)">
+                <img src="assets/img/portfolio04.png" 
+                    alt="Projetos protfólio" 
+                    class="w-80 h-80 object-cover rounded-lg cursor-pointer transition-transform duration-300 hover:scale-105"
+                    onclick="openModal(this.src)">
+                <img src="assets/img/portfolio05.png" 
+                    alt="Projetos protfólio"  
+                    class="w-80 h-80 object-cover rounded-lg cursor-pointer transition-transform duration-300 hover:scale-105"
+                    onclick="openModal(this.src)">
+                <img src="assets/img/portfolio06.png" 
+                    alt="Projetos protfólio" 
+                    class="w-80 h-80 object-cover rounded-lg cursor-pointer transition-transform duration-300 hover:scale-105"
+                    onclick="openModal(this.src)">
+            </div>
+
+            <!-- Modal -->
+            <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center hidden z-50">
+                <span class="absolute top-6 right-8 text-white text-4xl cursor-pointer" onclick="closeModal()">&times;</span>
+                <img id="modalImg" src="" class="max-w-[90%] max-h-[90%] rounded-lg shadow-lg" />
+            </div>
     </section>
     
 </body>
