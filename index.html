@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luani Simtob - Portfólio</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2" defer></script>
+    <script src="./assets/js/scripts.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Metropoli:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/cubo-d.ico" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <!-- MAIN BAR -->
+        <div class="flex justify-between items-center px-6 px-16 lg:px-32 py-4">
+            <!-- LOGO -->
+            <a class="px-4 py-4" href="#inicio">
+                Luani Simtob
+            </a>
+
+            <!-- NAV -->
+            <nav class="md:flex space-x-6 items-center">
+                <ul class="flex justify-between items-center gap-4">
+                    <li><a class="px-4 py-4" href="#inicio">Início</a></li>
+                    <li><a class="px-4 py-4" href="#sobre">Sobre</a></li>
+                    <li><a class="px-4 py-4" href="#servicos">Serviços</a></li>
+                    <li><a class="px-4 py-4" href="#stack">Stack</a></li>
+                    <li><a class="px-4 py-4" href="#projetos">Projetos</a></li>
+                    <li><a class="px-4 py-4" href="#depoimentos">Depoimentos</a></li>
+                    <li><a class="px-4 py-4" href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!-- BANNER -->
+        <section id="inicio" class="relative h-[856px] flex items-center pt-[120px] px-6 md:px-32">
+            <picture class="absolute inset-0 z-0 will-change-transform" 
+                :style="'transform: translateY(' + backgroundY + 'px)'">
+                <img 
+                    src="assets/img/banner.png"
+                    alt="Banner Principal"
+                    class="w-full h-full object-cover"
+                    loading="lazy"
+                    decoding="async"
+                />
+            </picture>
+
+            <!-- CONTEÚDO HEADER  -->
+            <div class="relative z-1 flex justify-between items-center gap-16 w-full">
+                <div class="md:w-[50%] lg:w-[50%] xl:w-[50%] w-full">
+                    <h1>Desenvolvedora de sistemas</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus repudiandae culpa blanditiis. Dolorem, optio itaque, adipisci saepe nobis iusto quod ad suscipit quidem veniam velit corrupti recusandae, aspernatur animi.</p>
+                    <div class="flex items-center gap-4">
+                        <a class="px-4 py-4" href="#contato">Saiba mais</a>
+                        <a class="px-4 py-4" href="#contato">Fale comigo</a>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center md:w-[50%] lg:w-[50%] xl:w-[50%] w-full">
+
+                    <img 
+                        src="assets/img/molduraFoto.svg"
+                        alt="Moldura Imagem"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                </div>
+
+            </div>
+        </section>
+    </header>
+
+    <!-- SESSÃO SOBRE  -->
+    <section id="sobre" class="relative items-center pt-[120px] pb-[60px] px-6 md:px-32">
+        <picture class="absolute inset-0 z-0 will-change-transform" 
+            :style="'transform: translateY(' + backgroundY + 'px)'">
+            <img 
+                src="assets/img/bgSobre.png"
+                alt="Banner Principal"
+                class="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+            />
+        </picture>
+        <div class="relative z-1 flex justify-between items-center gap-16 w-full">
+            <div class="flex justify-center items-center md:w-[50%] lg:w-[50%] xl:w-[50%] w-full">
+                <img 
+                    src="assets/img/molduraFoto.svg"
+                    alt="Moldura Imagem"
+                    loading="lazy"
+                    decoding="async"
+                />
+            </div>
+            <div class="md:w-[50%] lg:w-[50%] xl:w-[50%] w-full">
+                <h2>Sobre mim</h2>
+                <h3>Subtitulo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus repudiandae culpa blanditiis. Dolorem, optio itaque, adipisci saepe nobis iusto quod ad suscipit quidem veniam velit corrupti recusandae, aspernatur animi.</p>
+                <h3>Subtitulo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus repudiandae culpa blanditiis. Dolorem, optio itaque, adipisci saepe nobis iusto quod ad suscipit quidem veniam velit corrupti recusandae, aspernatur animi.</p>
+                <h3>Subtitulo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus repudiandae culpa blanditiis. Dolorem, optio itaque, adipisci saepe nobis iusto quod ad suscipit quidem veniam velit corrupti recusandae, aspernatur animi.</p>
+            </div>
+        </div>
+        <div class="relative z-1 flex justify-center items-center flex-wrap gap-8 w-full py-16">
+            <div class="flex justify-center items-center">
+                <div class="w-80 h-52 text-center rounded-md outline outline-1 outline-[#A1CCCF]
+                group transition-all duration-300
+                hover:bg-gradient-to-b hover:from-[#03959f] hover:to-[#012f35]
+                hover:shadow-md hover:outline-0">
+                    <div class="w-full h-full rounded-md bg-[#e9f3f4] flex flex-col justify-center items-center p-4
+                        group-hover:bg-gradient-to-b group-hover:from-[#03959f] group-hover:to-[#012f35]
+                        group-hover:text-white transition-all duration-300">
+                        <p class="text-6xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">9+</p>
+                        <p class="text-2xl text-[#138086] group-hover:text-white transition-colors duration-300">Anos de experiência</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <div class="w-80 h-52 text-center rounded-md outline outline-1 outline-[#A1CCCF]
+                group transition-all duration-300
+                hover:bg-gradient-to-b hover:from-[#03959f] hover:to-[#012f35]
+                hover:shadow-md hover:outline-0">
+                    <div class="w-full h-full rounded-md bg-[#e9f3f4] flex flex-col justify-center items-center p-4
+                        group-hover:bg-gradient-to-b group-hover:from-[#03959f] group-hover:to-[#012f35]
+                        group-hover:text-white transition-all duration-300">
+                    <p class="text-6xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">30+</p>
+                    <p class="text-2xl text-[#138086] group-hover:text-white transition-colors duration-300">Projetos concluídos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <div class="w-80 h-52 text-center rounded-md outline outline-1 outline-[#A1CCCF]
+                group transition-all duration-300
+                hover:bg-gradient-to-b hover:from-[#03959f] hover:to-[#012f35]
+                hover:shadow-md hover:outline-0">
+                    <div class="w-full h-full rounded-md bg-[#e9f3f4] flex flex-col justify-center items-center p-4
+                        group-hover:bg-gradient-to-b group-hover:from-[#03959f] group-hover:to-[#012f35]
+                        group-hover:text-white transition-all duration-300">
+                    <p class="text-6xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">15+</p>
+                    <p class="text-2xl text-[#138086] group-hover:text-white transition-colors duration-300">Clientes atendidos</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <div class="w-80 h-52 text-center rounded-md outline outline-1 outline-[#A1CCCF]
+                group transition-all duration-300
+                hover:bg-gradient-to-b hover:from-[#03959f] hover:to-[#012f35]
+                hover:shadow-md hover:outline-0">
+                    <div class="w-full h-full rounded-md bg-[#e9f3f4] flex flex-col justify-center items-center p-4
+                        group-hover:bg-gradient-to-b group-hover:from-[#03959f] group-hover:to-[#012f35]
+                        group-hover:text-white transition-all duration-300">
+                    <p class="text-6xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">12+</p>
+                    <p class="text-2xl text-[#138086] group-hover:text-white transition-colors duration-300">Componentes Angular Publicados na NPM </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SESSÃO SERVICOS  -->
+    <section id="servicos" class="relative items-center pt-[120px] pb-[60px] px-6 md:px-32">
+        <picture class="absolute inset-0 z-0 will-change-transform" 
+            :style="'transform: translateY(' + backgroundY + 'px)'">
+            <img 
+                src="assets/img/bgServicos.png"
+                alt="background serviços"
+                class="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+            />
+        </picture>
+        <div class="relative z-1 w-full flex justify-center items-center">
+            <div class="md:w-[85%] lg:w-[75%] xl:w-[50%] text-center">
+                <h2>Serviços</h2>
+                <h3>Soluções que ofereço</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus repudiandae culpa blanditiis. Dolorem, optio itaque, adipisci saepe nobis iusto quod ad suscipit quidem veniam velit corrupti recusandae, aspernatur animi.</p>
+            </div>
+        </div>
+        <div class="relative z-1 flex justify-center items-center  py-16">
+            <div class="flex justify-center items-center flex-wrap gap-8 w-full">
+                <div class="w-80 h-52 text-center rounded-md outline outline-1 outline-[#A1CCCF]
+                    group transition-all duration-300
+                    hover:bg-gradient-to-b hover:from-[#03959f] hover:to-[#012f35]
+                    hover:shadow-md hover:outline-0">
+                    <div class="relative w-full h-full rounded-md bg-[#e9f3f4] flex flex-col justify-center items-center p-4
+                        group-hover:bg-gradient-to-b group-hover:from-[#03959f] group-hover:to-[#012f35]
+                        group-hover:text-white transition-all duration-300">
+                        <div class="relative h-24 mb-2 w-full flex justify-center items-center">
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
+                            src="assets/img/dev.svg"
+                            alt="ícone web"
+                            loading="lazy"
+                            decoding="async" />
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
+                            src="assets/img/dev_white.svg"
+                            alt="ícone web hover"
+                            loading="lazy"
+                            decoding="async" />
+                        </div>
+                        <h4 class="relative text-2xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">
+                            Sistemas Web
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="w-80 h-52 text-center rounded-md outline outline-1 outline-[#A1CCCF]
+                    group transition-all duration-300
+                    hover:bg-gradient-to-b hover:from-[#03959f] hover:to-[#012f35]
+                    hover:shadow-md hover:outline-0">
+                    <div class="relative w-full h-full rounded-md bg-[#e9f3f4] flex flex-col justify-center items-center p-4
+                        group-hover:bg-gradient-to-b group-hover:from-[#03959f] group-hover:to-[#012f35]
+                        group-hover:text-white transition-all duration-300">
+                        <div class="relative h-24 mb-2 w-full flex justify-center items-center">
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
+                            src="assets/img/web.svg"
+                            alt="ícone landing pages"
+                            loading="lazy"
+                            decoding="async" />
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
+                            src="assets/img/web_white.svg"
+                            alt="ícone landing pages Hover"
+                            loading="lazy"
+                            decoding="async" />
+                        </div>
+                        <h4 class="relative text-2xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">
+                            Landing Pages
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="w-80 h-52 text-center rounded-md outline outline-1 outline-[#A1CCCF]
+                    group transition-all duration-300
+                    hover:bg-gradient-to-b hover:from-[#03959f] hover:to-[#012f35]
+                    hover:shadow-md hover:outline-0">
+                    <div class="relative w-full h-full rounded-md bg-[#e9f3f4] flex flex-col justify-center items-center p-4
+                        group-hover:bg-gradient-to-b group-hover:from-[#03959f] group-hover:to-[#012f35]
+                        group-hover:text-white transition-all duration-300">
+                        <div class="relative h-24 mb-2 w-full flex justify-center items-center">
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
+                            src="assets/img/mobile.svg"
+                            alt="ícone mobile"
+                            loading="lazy"
+                            decoding="async" />
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
+                            src="assets/img/mobile_white.svg"
+                            alt="ícone mobile Hover"
+                            loading="lazy"
+                            decoding="async" />
+                        </div>
+                        <h4 class="relative text-2xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">
+                            Apps Mobile
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="w-80 h-52 text-center rounded-md outline outline-1 outline-[#A1CCCF]
+                    group transition-all duration-300
+                    hover:bg-gradient-to-b hover:from-[#03959f] hover:to-[#012f35]
+                    hover:shadow-md hover:outline-0">
+                    <div class="relative w-full h-full rounded-md bg-[#e9f3f4] flex flex-col justify-center items-center p-4
+                        group-hover:bg-gradient-to-b group-hover:from-[#03959f] group-hover:to-[#012f35]
+                        group-hover:text-white transition-all duration-300">
+                        <div class="relative h-24 mb-2 w-full flex justify-center items-center">
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
+                            src="assets/img/integration.svg"
+                            alt="ícone integracao"
+                            loading="lazy"
+                            decoding="async" />
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
+                            src="assets/img/integration_white.svg"
+                            alt="ícone integracao Hover"
+                            loading="lazy"
+                            decoding="async" />
+                        </div>
+                        <h4 class="relative text-2xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">
+                            APIs e Integrações
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="w-80 h-52 text-center rounded-md outline outline-1 outline-[#A1CCCF]
+                    group transition-all duration-300
+                    hover:bg-gradient-to-b hover:from-[#03959f] hover:to-[#012f35]
+                    hover:shadow-md hover:outline-0">
+                    <div class="relative w-full h-full rounded-md bg-[#e9f3f4] flex flex-col justify-center items-center p-4
+                        group-hover:bg-gradient-to-b group-hover:from-[#03959f] group-hover:to-[#012f35]
+                        group-hover:text-white transition-all duration-300">
+                        <div class="relative h-24 mb-2 w-full flex justify-center items-center">
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
+                            src="assets/img/automation.svg"
+                            alt="ícone automação"
+                            loading="lazy"
+                            decoding="async" />
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
+                            src="assets/img/automation_white.svg"
+                            alt="ícone automação Hover"
+                            loading="lazy"
+                            decoding="async" />
+                        </div>
+                        <h4 class="relative text-2xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">
+                            Automação
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="w-80 h-52 text-center rounded-md outline outline-1 outline-[#A1CCCF]
+                    group transition-all duration-300
+                    hover:bg-gradient-to-b hover:from-[#03959f] hover:to-[#012f35]
+                    hover:shadow-md hover:outline-0">
+                    <div class="relative w-full h-full rounded-md bg-[#e9f3f4] flex flex-col justify-center items-center p-4
+                        group-hover:bg-gradient-to-b group-hover:from-[#03959f] group-hover:to-[#012f35]
+                        group-hover:text-white transition-all duration-300">
+                        <div class="relative h-24 mb-2 w-full flex justify-center items-center">
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
+                            src="assets/img/chatbot.svg"
+                            alt="ícone chatbot"
+                            loading="lazy"
+                            decoding="async" />
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
+                            src="assets/img/chatbot_white.svg"
+                            alt="ícone chatbot Hover"
+                            loading="lazy"
+                            decoding="async" />
+                        </div>
+                        <h4 class="relative text-2xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">
+                            Chatbots
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="w-80 h-52 text-center rounded-md outline outline-1 outline-[#A1CCCF]
+                    group transition-all duration-300
+                    hover:bg-gradient-to-b hover:from-[#03959f] hover:to-[#012f35]
+                    hover:shadow-md hover:outline-0">
+                    <div class="relative w-full h-full rounded-md bg-[#e9f3f4] flex flex-col justify-center items-center p-4
+                        group-hover:bg-gradient-to-b group-hover:from-[#03959f] group-hover:to-[#012f35]
+                        group-hover:text-white transition-all duration-300">
+                        <div class="relative h-24 mb-2 w-full flex justify-center items-center">
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
+                            src="assets/img/ux.svg"
+                            alt="ícone ux"
+                            loading="lazy"
+                            decoding="async" />
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
+                            src="assets/img/ux_white.svg"
+                            alt="ícone ux Hover"
+                            loading="lazy"
+                            decoding="async" />
+                        </div>
+                        <h4 class="relative text-2xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">
+                            UX/UI Design
+                        </h4>
+                    </div>
+                </div>
+
+                <div class="w-80 h-52 text-center rounded-md outline outline-1 outline-[#A1CCCF]
+                    group transition-all duration-300
+                    hover:bg-gradient-to-b hover:from-[#03959f] hover:to-[#012f35]
+                    hover:shadow-md hover:outline-0">
+                    <div class="relative w-full h-full rounded-md bg-[#e9f3f4] flex flex-col justify-center items-center p-4
+                        group-hover:bg-gradient-to-b group-hover:from-[#03959f] group-hover:to-[#012f35]
+                        group-hover:text-white transition-all duration-300">
+                        <div class="relative h-24 mb-2 w-full flex justify-center items-center">
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-100 group-hover:opacity-0"
+                            src="assets/img/seo.svg"
+                            alt="ícone seo"
+                            loading="lazy"
+                            decoding="async" />
+                            <img class="absolute w-24 transition-opacity duration-300 opacity-0 group-hover:opacity-100"
+                            src="assets/img/seo_white.svg"
+                            alt="ícone seo Hover"
+                            loading="lazy"
+                            decoding="async" />
+                        </div>
+                        <h4 class="relative text-2xl font-bold text-[#062628] group-hover:text-white transition-colors duration-300">
+                            SEO
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

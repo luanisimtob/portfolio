@@ -1,0 +1,62 @@
+<svg width="636" height="636" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradCenter" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#138086"></stop>
+      <stop offset="100%" stop-color="#062628"></stop>
+    </linearGradient>
+    
+    <linearGradient id="gradOuter" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#062628"></stop>
+      <stop offset="40%" stop-color="#1380867a"></stop>
+      <stop offset="70%" stop-color="#13808600"></stop>
+      <stop offset="100%" stop-color="#13808600"></stop>
+    </linearGradient>
+  </defs>
+
+  <circle cx="50" cy="50" r="48" fill="none" stroke="url(#gradOuter)" stroke-width="3"></circle>
+
+  <g transform="translate(50 50) scale(0.886805) translate(-50 -50)" fill="#062628">
+    <circle cx="95" cy="50" r="0.6" opacity="0"></circle>
+    <circle cx="94.4459753267812" cy="57.03955092681039" r="0.6" opacity="0.025"></circle>
+    <circle cx="92.79754323328191" cy="63.905764746872634" r="0.6" opacity="0.05"></circle>
+    <circle cx="90.09529358847655" cy="70.4295724882796" r="0.6" opacity="0.075"></circle>
+    <circle cx="86.40576474687263" cy="76.45033635316129" r="0.6" opacity="0.1"></circle>
+    <circle cx="81.81980515339464" cy="81.81980515339464" r="0.6" opacity="0.125"></circle>
+    <circle cx="76.45033635316129" cy="86.40576474687263" r="0.6" opacity="0.15"></circle>
+    <circle cx="70.4295724882796" cy="90.09529358847655" r="0.6" opacity="0.175"></circle>
+    <circle cx="63.905764746872634" cy="92.79754323328191" r="0.6" opacity="0.2"></circle>
+    <circle cx="57.03955092681039" cy="94.4459753267812" r="0.6" opacity="0.225"></circle>
+    <circle cx="50" cy="95" r="0.6" opacity="0.25"></circle>
+    <circle cx="42.9604490731896" cy="94.4459753267812" r="0.6" opacity="0.275"></circle>
+    <circle cx="36.094235253127366" cy="92.79754323328191" r="0.6" opacity="0.3"></circle>
+    <circle cx="29.5704275117204" cy="90.09529358847655" r="0.6" opacity="0.325"></circle>
+    <circle cx="23.549663646838713" cy="86.40576474687263" r="0.6" opacity="0.35"></circle>
+    <circle cx="18.180194846605364" cy="81.81980515339464" r="0.6" opacity="0.375"></circle>
+    <circle cx="13.594235253127373" cy="76.4503363531613" r="0.6" opacity="0.4"></circle>
+    <circle cx="9.904706411523449" cy="70.4295724882796" r="0.6" opacity="0.425"></circle>
+    <circle cx="7.202456766718093" cy="63.905764746872634" r="0.6" opacity="0.45"></circle>
+    <circle cx="5.554024673218805" cy="57.03955092681039" r="0.6" opacity="0.475"></circle>
+    <circle cx="5" cy="50.00000000000001" r="0.6" opacity="0.5"></circle>
+    <circle cx="5.554024673218798" cy="42.960449073189615" r="0.6" opacity="0.525"></circle>
+    <circle cx="7.202456766718093" cy="36.09423525312735" r="0.6" opacity="0.55"></circle>
+    <circle cx="9.904706411523435" cy="29.570427511720418" r="0.6" opacity="0.575"></circle>
+    <circle cx="13.594235253127358" cy="23.549663646838713" r="0.6" opacity="0.6"></circle>
+    <circle cx="18.180194846605353" cy="18.180194846605364" r="0.6" opacity="0.625"></circle>
+    <circle cx="23.549663646838702" cy="13.594235253127373" r="0.6" opacity="0.65"></circle>
+    <circle cx="29.57042751172039" cy="9.904706411523449" r="0.6" opacity="0.675"></circle>
+    <circle cx="36.09423525312736" cy="7.202456766718093" r="0.6" opacity="0.7"></circle>
+    <circle cx="42.9604490731896" cy="5.554024673218805" r="0.6" opacity="0.725"></circle>
+    <circle cx="49.99999999999999" cy="5" r="0.6" opacity="0.75"></circle>
+    <circle cx="57.03955092681038" cy="5.554024673218798" r="0.6" opacity="0.775"></circle>
+    <circle cx="63.90576474687263" cy="7.202456766718086" r="0.6" opacity="0.8"></circle>
+    <circle cx="70.4295724882796" cy="9.904706411523442" r="0.6" opacity="0.825"></circle>
+    <circle cx="76.45033635316128" cy="13.594235253127358" r="0.6" opacity="0.85"></circle>
+    <circle cx="81.81980515339463" cy="18.180194846605353" r="0.6" opacity="0.875"></circle>
+    <circle cx="86.40576474687262" cy="23.5496636468387" r="0.6" opacity="0.9"></circle>
+    <circle cx="90.09529358847655" cy="29.570427511720386" r="0.6" opacity="0.925"></circle>
+    <circle cx="92.79754323328191" cy="36.09423525312735" r="0.6" opacity="0.95"></circle>
+    <circle cx="94.4459753267812" cy="42.9604490731896" r="0.6" opacity="0.975"></circle>
+  </g>
+  
+  <circle cx="50" cy="50" r="33" fill="url(#gradCenter)"></circle>
+</svg>
