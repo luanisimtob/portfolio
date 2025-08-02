@@ -1,0 +1,15 @@
+.profile {
+    position: relative;
+    width: 346px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 2;
+    top: -32px;
+}
+
+.moldura-container{
+    width: 500px;
+    min-width: 500px;
+    height: 500px;
+}
