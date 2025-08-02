@@ -15,20 +15,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Metropoli:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+
+
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
           
     <link href="./assets/css/styles.css" rel="stylesheet">
-    <link rel="shortcut icon" href="assets/img/cubo-d.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
 
 </head>
 <body>
     <header>
         <!-- MAIN BAR -->
-        <div class="flex justify-between items-center px-6 px-16 lg:px-32 py-4">
+        <div class="bg-white fixed flex justify-between items-center px-6 px-16 lg:px-32 py-4 w-full z-20">
             <!-- LOGO -->
-            <a class="px-4 py-4" href="#inicio">
-                Luani Simtob
-            </a>
+            <div class="relative w-[250px]">
+                <a class="px-4 py-4" href="#inicio">
+                    <img 
+                        src="assets/img/logo.png"
+                        alt="Logo"
+                        loading="lazy"
+                        decoding="async"
+                    />
+                </a>
+            </div>
+
 
             <!-- NAV -->
             <nav class="md:flex space-x-6 items-center">
@@ -61,7 +74,7 @@
             <!-- CONTEÚDO HEADER  -->
             <div class="relative z-1 flex justify-between items-center gap-16 w-full">
                 <div class="md:w-[50%] lg:w-[50%] xl:w-[50%] w-full">
-                    <h2 class="text-4xl font-bold text-[#062628] mb-6">A solução que você procura está aqui</h2>
+                    <h1 class="text-4xl font-bold text-[#062628] mb-6">A solução que você procura está aqui</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium accusamus repudiandae culpa blanditiis. Dolorem, optio itaque, adipisci saepe nobis iusto quod ad suscipit quidem veniam velit corrupti recusandae, aspernatur animi.</p>
                     <div class="flex items-center gap-4 pt-6">
                         <button class="px-6 py-2 rounded-full font-semibold text-white bg-[#138086] 
@@ -397,7 +410,7 @@
                 </div>
             </div>
         </div>
-        <div id="stacks" class="relative items-center pt-[120px] pb-[60px]">
+        <div id="stack" class="relative items-center pt-[120px] pb-[60px]">
             <div class="relative z-1 flex justify-between items-center gap-16 w-full">
                 <div class="md:w-[50%] lg:w-[50%] xl:w-[50%] w-full">
                     <h3 class="text-sm font-semibold text-gray-700 mb-1">Stacks</h3>
@@ -605,7 +618,7 @@
                     <p class="font-semibold text-gray-700 mt-1">Maria Joana</p>
                 </div>
             </div>
-            <div class="flex justify-center items-center gap-8 w-full pt-[120px]">
+            <div id="contato" class="flex justify-center items-center gap-8 w-full pt-[120px]">
                 <div class="flex justify-center items-center">
                     <form id="contactForm" class="w-full max-w-md border border-[#A1CCCF] rounded-md p-6 shadow-sm">
                         <h3 class="text-sm font-semibold text-gray-700 mb-1">Contato</h3>
